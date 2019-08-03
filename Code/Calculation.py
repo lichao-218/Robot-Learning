@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 30 15:49:17 2018
-
-@author: jacob
-"""
 
 def calculate(problem):
     ans = list(problem)
