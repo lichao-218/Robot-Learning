@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-"""
 
 import socket
 import time
 
-HOST = "UR IP"
+HOST = "UR robot IP"
 PORT = port
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -51,11 +50,3 @@ def Pickup():
   
     s.send(bytes("halt",'utf8') + bytes("\n", 'utf8'))  
         
-
-    
-
-
-        
-
-    
-
